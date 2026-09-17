@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com<your-github-username>/student-management-system.git'
+                git branch: 'main', url: 'https://github.com/hiteshreddy007/Agile_da07_q2.git'
             }
         }
         
